@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <style>
+      .o{fill:none;stroke:#0B1220;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;opacity:.25}
+      .y{fill:#FFCD1B;opacity:.18}
+      .b{fill:#4EA9DD;opacity:.12}
+    </style>
+  </defs>
+  <rect width="1200" height="400" fill="transparent"/>
+  <g transform="translate(40,40)">
+    <path class="o" d="M20 80c60-80 120 80 180 0s120 80 180 0"/>
+    <circle class="b" cx="90" cy="30" r="18"/>
+    <circle class="y" cx="260" cy="120" r="14"/>
+    <path class="o" d="M330 25l25 25-25 25-25-25z"/>
+  </g>
+  <g transform="translate(520,90)">
+    <path class="o" d="M10 140c40-40 80 40 120 0s80 40 120 0s80 40 120 0"/>
+    <circle class="y" cx="60" cy="60" r="16"/>
+    <circle class="b" cx="220" cy="40" r="20"/>
+    <path class="o" d="M320 80c25-20 45-20 70 0"/>
+  </g>
+  <g transform="translate(200,250)">
+    <path class="o" d="M0 40h120"/>
+    <path class="o" d="M20 0v80"/>
+    <circle class="b" cx="170" cy="40" r="18"/>
+    <circle class="y" cx="220" cy="40" r="10"/>
+    <path class="o" d="M280 15l35 50"/>
+    <path class="o" d="M315 15l-35 50"/>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <defs>
+    <style>
+      .o{fill:none;stroke:#0B1220;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+      .f1{fill:#FFCD1B;stroke:#0B1220;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+      .f2{fill:#F7FAFF;stroke:#0B1220;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+      .t{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto;fill:#0B1220}
+    </style>
+  </defs>
+
+  <!-- playful outline illustration placeholder -->
+  <rect x="24" y="24" width="852" height="852" rx="28" class="f2"/>
+  <path d="M162 315 C 225 162, 432 162, 495 315 C 558 468, 747 468, 720 630 C 693 792, 468 756, 432 648 C 396 540, 198 522, 162 315 Z" class="o"/>
+  <rect x="144" y="522" width="270" height="180" rx="18" class="f1"/>
+  <path d="M198 594 h162" class="o"/>
+  <path d="M198 639 h126" class="o"/>
+  <path d="M468 270 l108 -90" class="o"/>
+  <path d="M468 270 l-126 -18" class="o"/>
+  <circle cx="648" cy="270" r="45" class="f1"/>
+
+  <text x="450" y="108" text-anchor="middle" class="t" font-size="45" font-weight="800">Hero Mobile</text>
+  <text x="450" y="162" text-anchor="middle" class="t" font-size="31" opacity="0.75">Ilustración placeholder</text>
+
+  <text x="450" y="854" text-anchor="middle" class="t" font-size="27" opacity="0.55">Reemplazar por ilustración final (sin copyright)</text>
+</svg>

@@ -15,8 +15,7 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-// Si luego conectas dominio propio, puedes definir NEXT_PUBLIC_SITE_URL en Vercel (Project → Settings → Environment Variables).
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://eurides-landing.vercel.app";
+const SITE_URL = "https://eurides.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -57,26 +56,27 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Person",
-      "name": "Eurides Melista Young Emanuel",
-      "email": "emyoungab@gmail.com",
-      "telephone": ["+50766167325", "+50760947295"],
-      "jobTitle": "Traductora / Facilitadora de Inglés",
-      "alumniOf": [
-        { "@type": "CollegeOrUniversity", "name": "Universidad de Panamá" },
-        { "@type": "CollegeOrUniversity", "name": "Universidad Latina" },
-        { "@type": "CollegeOrUniversity", "name": "UDI" }
-      ]
+      name: "Eurides Melista Young Emanuel",
+      email: "emyoungab@gmail.com",
+      telephone: ["+50766167325", "+50760947295"],
+      jobTitle: "Traductora / Facilitadora de Inglés",
+      alumniOf: [
+        { "@type": "CollegeOrUniversity", name: "Universidad de Panamá" },
+        { "@type": "CollegeOrUniversity", name: "Universidad Latina" },
+        { "@type": "CollegeOrUniversity", name: "UDI" },
+      ],
     },
     {
       "@type": "ProfessionalService",
-      "name": "Eurides Young Traducciones",
-      "description": "Servicios de traducción Inglés ↔ Español y traducción certificada según requisitos aplicables.",
-      "telephone": ["+50766167325", "+50760947295"],
-      "email": "emyoungab@gmail.com",
-      "areaServed": "Panamá",
-      "url": SITE_URL
-    }
-  ]
+      name: "Eurides Young Traducciones",
+      description:
+        "Servicios de traducción Inglés ↔ Español, revisión y traducción certificada según requisitos aplicables.",
+      telephone: ["+50766167325", "+50760947295"],
+      email: "emyoungab@gmail.com",
+      areaServed: "Panamá y atención remota",
+      url: SITE_URL,
+    },
+  ],
 };
 
 export default function RootLayout({

@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" fill="none">
+  <!--
+    HERO MOBILE - Traducción EN↔ES (sin texto)
+    Compacto, centrado, con 10% padding visual.
+  -->
+
+  <g stroke="#0B1220" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Blob shadow -->
+    <path d="M175 215
+             C230 120 380 95 485 130
+             C605 170 720 260 735 395
+             C752 545 660 700 520 770
+             C385 838 250 800 185 700
+             C120 600 105 505 125 400
+             C145 300 135 275 175 215 Z"
+          fill="#0B1220" opacity="0.08" stroke="none" transform="translate(14 14)"/>
+
+    <!-- Blob -->
+    <path d="M175 215
+             C230 120 380 95 485 130
+             C605 170 720 260 735 395
+             C752 545 660 700 520 770
+             C385 838 250 800 185 700
+             C120 600 105 505 125 400
+             C145 300 135 275 175 215 Z"
+          fill="#F7FAFF" stroke-width="8"/>
+
+    <!-- Back doc shadow -->
+    <path d="M265 285
+             Q265 260 290 260
+             H565
+             Q590 260 590 285
+             V690
+             Q590 715 565 715
+             H290
+             Q265 715 265 690 Z"
+          fill="#0B1220" opacity="0.08" stroke="none" transform="translate(12 12)"/>
+
+    <!-- Back doc -->
+    <path d="M265 285
+             Q265 260 290 260
+             H565
+             Q590 260 590 285
+             V690
+             Q590 715 565 715
+             H290
+             Q265 715 265 690 Z"
+          fill="#FFFFFF" stroke-width="8"/>
+
+    <!-- Main doc shadow -->
+    <path d="M300 305
+             Q300 278 327 278
+             H520
+             L610 368
+             V725
+             Q610 752 583 752
+             H327
+             Q300 752 300 725 Z"
+          fill="#0B1220" opacity="0.08" stroke="none" transform="translate(12 12)"/>
+
+    <!-- Main doc -->
+    <path d="M300 305
+             Q300 278 327 278
+             H520
+             L610 368
+             V725
+             Q610 752 583 752
+             H327
+             Q300 752 300 725 Z"
+          fill="#F7FAFF" stroke-width="8"/>
+
+    <!-- Fold -->
+    <path d="M520 278 L610 368 H520 Z" fill="#FFCD1B" stroke-width="8"/>
+
+    <!-- "Content lines" -->
+    <path d="M345 395 C410 370 475 370 540 395" stroke-width="8" opacity="0.9"/>
+    <path d="M345 445 C425 420 505 420 585 445" stroke-width="8" opacity="0.75"/>
+    <path d="M345 495 C435 470 525 470 615 495" stroke-width="8" opacity="0.6"/>
+    <path d="M345 545 C415 525 485 525 555 545" stroke-width="8" opacity="0.55"/>
+
+    <!-- Center exchange bubbles -->
+    <!-- Left bubble shadow -->
+    <path d="M170 175
+             Q170 150 195 150
+             H390
+             Q415 150 415 175
+             V255
+             Q415 280 390 280
+             H270
+             L238 312
+             L242 280
+             H195
+             Q170 280 170 255 Z"
+          fill="#0B1220" opacity="0.08" stroke="none" transform="translate(10 10)"/>
+
+    <!-- Left bubble -->
+    <path d="M170 175
+             Q170 150 195 150
+             H390
+             Q415 150 415 175
+             V255
+             Q415 280 390 280
+             H270
+             L238 312
+             L242 280
+             H195
+             Q170 280 170 255 Z"
+          fill="#FFFFFF" stroke-width="8"/>
+
+    <circle cx="230" cy="215" r="10" fill="#4EA9DD" stroke-width="8"/>
+    <circle cx="290" cy="215" r="10" fill="#4EA9DD" stroke-width="8"/>
+    <circle cx="350" cy="215" r="10" fill="#4EA9DD" stroke-width="8"/>
+
+    <!-- Right bubble shadow -->
+    <path d="M485 165
+             Q485 140 510 140
+             H705
+             Q730 140 730 165
+             V245
+             Q730 270 705 270
+             H595
+             L630 303
+             L625 270
+             H510
+             Q485 270 485 245 Z"
+          fill="#0B1220" opacity="0.08" stroke="none" transform="translate(10 10)"/>
+
+    <!-- Right bubble -->
+    <path d="M485 165
+             Q485 140 510 140
+             H705
+             Q730 140 730 165
+             V245
+             Q730 270 705 270
+             H595
+             L630 303
+             L625 270
+             H510
+             Q485 270 485 245 Z"
+          fill="#FFCD1B" stroke-width="8"/>
+
+    <circle cx="545" cy="205" r="10" fill="#FFFFFF" stroke-width="8"/>
+    <circle cx="605" cy="205" r="10" fill="#FFFFFF" stroke-width="8"/>
+    <circle cx="665" cy="205" r="10" fill="#FFFFFF" stroke-width="8"/>
+
+    <!-- Exchange arrows -->
+    <path d="M425 205 C455 175 485 170 515 175" stroke-width="10" fill="none"/>
+    <path d="M507 158 L521 175 L498 180" stroke-width="10" fill="none"/>
+
+    <path d="M515 235 C485 265 455 270 425 260" stroke-width="10" fill="none"/>
+    <path d="M438 277 L423 260 L448 255" stroke-width="10" fill="none"/>
+
+    <!-- Check stamp -->
+    <circle cx="410" cy="665" r="56" fill="#0B1220" opacity="0.08" stroke="none" transform="translate(10 10)"/>
+    <circle cx="410" cy="665" r="56" fill="#FFCD1B" stroke-width="8"/>
+    <path d="M385 668 L405 688 L440 650" stroke-width="10" fill="none"/>
+
+    <!-- Magnifying glass -->
+    <circle cx="585" cy="615" r="46" fill="#FFFFFF" stroke-width="8"/>
+    <path d="M620 650 L685 715" stroke-width="12"/>
+    <path d="M568 598 C585 588 602 588 618 598" stroke-width="8" opacity="0.7"/>
+
+    <!-- Fun accent doodles -->
+    <path d="M210 420 L245 420" stroke-width="8" opacity="0.8"/>
+    <path d="M227 403 L227 437" stroke-width="8" opacity="0.8"/>
+    <path d="M690 420 L725 420" stroke-width="8" opacity="0.8"/>
+    <path d="M708 403 L708 437" stroke-width="8" opacity="0.8"/>
+
+    <path d="M260 780
+             C275 760 305 760 320 780
+             C335 800 320 825 295 820
+             C272 816 245 802 260 780 Z"
+          fill="#4EA9DD" stroke-width="8"/>
+
+    <path d="M610 790
+             C625 770 655 770 670 790
+             C685 810 670 835 645 830
+             C622 826 595 812 610 790 Z"
+          fill="#FFFFFF" stroke-width="8"/>
+  </g>
+</svg>

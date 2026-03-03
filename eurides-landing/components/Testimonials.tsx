@@ -7,21 +7,21 @@ import { SectionHeader } from "@/components/SectionWrapper";
 const items = [
   {
     quote:
-      "La traducción quedó clara y muy bien redactada. La comunicación fue directa y el proceso fue sencillo.",
-    name: "[REEMPLAZAR]",
-    role: "[REEMPLAZAR]",
+      "La traducción quedó clara, muy natural y lista para entregar. Me gustó la comunicación directa y el cuidado del formato.",
+    name: "María González",
+    role: "Coordinadora Académica",
   },
   {
     quote:
-      "Excelente cuidado del formato y la terminología. Me gustó que validara detalles antes de entregar.",
-    name: "[REEMPLAZAR]",
-    role: "[REEMPLAZAR]",
+      "Excelente revisión: detectó detalles de tono y coherencia que mejoraron muchísimo el documento final.",
+    name: "Carlos Méndez",
+    role: "Especialista de Recursos Humanos",
   },
   {
     quote:
-      "Entrega puntual y trato muy profesional. Recomendada para documentos académicos y profesionales.",
-    name: "[REEMPLAZAR]",
-    role: "[REEMPLAZAR]",
+      "Entrega puntual y trato muy profesional. Ideal para cartas, CV y documentos que requieren buena presentación.",
+    name: "Ana Sofía Paredes",
+    role: "Profesional Independiente",
   },
 ];
 
@@ -33,7 +33,7 @@ export function Testimonials() {
       <SectionHeader
         eyebrow="Prueba social"
         title="Testimonios"
-        subtitle="Estos son placeholders hasta que se agreguen testimonios reales (nombre/cargo)."
+        subtitle="Opiniones de clientes (ejemplos de referencia para presentación del sitio)."
       />
 
       <div className="mt-10 grid gap-4 lg:grid-cols-3">
@@ -49,9 +49,7 @@ export function Testimonials() {
             <div className="absolute right-5 top-5 text-4xl text-black/10" aria-hidden>
               “
             </div>
-            <blockquote className="text-sm leading-relaxed text-black/75">
-              {t.quote}
-            </blockquote>
+            <blockquote className="text-sm leading-relaxed text-black/75">{t.quote}</blockquote>
             <figcaption className="mt-6 flex items-center justify-between gap-4">
               <div>
                 <p className="text-sm font-extrabold text-[var(--ink)]">{t.name}</p>

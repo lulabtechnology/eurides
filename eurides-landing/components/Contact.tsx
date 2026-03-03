@@ -109,7 +109,7 @@ export function Contact() {
           </div>
 
           <p className="mt-6 text-sm text-black/60">
-            Respuesta en <span className="font-extrabold text-black/80">[REEMPLAZAR]</span> horas.
+            Respuesta en <span className="font-extrabold text-black/80">1-5</span> horas.
           </p>
         </div>
 
@@ -168,20 +168,20 @@ export function Contact() {
                 "Documento académico",
                 "Documento profesional (CV, cartas, perfiles)",
                 "Documento personal",
-                "Otro [REEMPLAZAR]"
+                "Otro"
               ]}
             />
           </div>
 
           <div className="grid gap-4 sm:grid-cols-2">
             <Field
-              label="Nº de páginas/palabras [REEMPLAZAR]"
+              label="Nº de páginas/palabras"
               value={state.paginas}
               onChange={(v) => setState((s) => ({ ...s, paginas: v }))}
               placeholder="Ej: 3 páginas / 850 palabras"
             />
             <Field
-              label="Fecha deseada [REEMPLAZAR]"
+              label="Fecha deseada"
               value={state.fechaDeseada}
               onChange={(v) => setState((s) => ({ ...s, fechaDeseada: v }))}
               placeholder="Ej: 10/04/2026"

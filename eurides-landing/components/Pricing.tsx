@@ -8,25 +8,25 @@ const plans = [
   {
     name: "Esencial",
     forWho: "Para textos cortos y necesidades puntuales.",
-    price: "Desde [REEMPLAZAR]",
-    time: "Tiempo estimado: [REEMPLAZAR]",
+    price: "Desde $25",
+    time: "Tiempo estimado: 24–48 horas",
     items: ["Traducción EN↔ES", "Formato limpio", "Revisión básica"],
     featured: false,
   },
   {
     name: "Profesional",
     forWho: "Para documentos académicos o profesionales con mayor cuidado.",
-    price: "Desde [REEMPLAZAR]",
-    time: "Tiempo estimado: [REEMPLAZAR]",
+    price: "Desde $45",
+    time: "Tiempo estimado: 24–72 horas",
     items: ["Traducción EN↔ES", "Revisión y coherencia", "Ajustes razonables"],
     featured: true,
   },
   {
     name: "Certificada / Oficial",
     forWho: "Cuando el documento requiere traducción certificada según requisitos aplicables.",
-    price: "Desde [REEMPLAZAR]",
-    time: "Tiempo estimado: [REEMPLAZAR]",
-    items: ["Traducción certificada", "Formato para trámite", "Validación previa [REEMPLAZAR]"],
+    price: "Desde $85",
+    time: "Tiempo estimado: 48–96 horas",
+    items: ["Traducción certificada", "Formato para trámite", "Validación previa de requisitos"],
     featured: false,
   },
 ];
@@ -39,7 +39,7 @@ export function Pricing() {
       <SectionHeader
         eyebrow="Opciones claras"
         title="Planes / Precios"
-        subtitle="No inventamos montos: el precio final depende de extensión, complejidad y requisitos."
+        subtitle="Los valores son referencias iniciales. La cotización final depende de extensión, complejidad y requisitos."
         align="center"
       />
 
@@ -62,9 +62,7 @@ export function Pricing() {
               </div>
             ) : null}
 
-            <h3 className="font-[family-name:var(--font-fraunces)] text-2xl text-[var(--ink)]">
-              {p.name}
-            </h3>
+            <h3 className="font-[family-name:var(--font-fraunces)] text-2xl text-[var(--ink)]">{p.name}</h3>
             <p className="mt-2 text-sm leading-relaxed text-black/70">{p.forWho}</p>
 
             <div className="mt-6 rounded-2xl bg-white p-4">
@@ -97,7 +95,7 @@ export function Pricing() {
       </div>
 
       <p className="mt-6 text-center text-sm text-black/60">
-        Nota: Si necesitas una entrega urgente, indícalo y se evalúa disponibilidad <span className="font-extrabold text-black/80">[REEMPLAZAR]</span>.
+        Entrega urgente: sujeto a disponibilidad (consúltalo por WhatsApp).
       </p>
     </div>
   );

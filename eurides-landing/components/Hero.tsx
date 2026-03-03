@@ -12,7 +12,6 @@ export function Hero() {
 
   return (
     <section className="relative overflow-hidden bg-[var(--brand-blue)] text-white">
-      {/* subtle pattern + blobs */}
       <div className="pointer-events-none absolute inset-0 opacity-20">
         <div
           className="absolute inset-0 bg-[url('/images/patterns/doodles.svg')] bg-cover bg-center"
@@ -100,30 +99,9 @@ export function Hero() {
               </p>
             </div>
           </div>
-
-          {/* Logos placeholder (sin agregar sección extra) */}
-          <div className="mt-8">
-            <p className="text-xs font-semibold text-white/80">
-              Logos / instituciones (placeholder) — reemplazar si aplica
-            </p>
-            <div className="mt-3 grid grid-cols-4 gap-2 sm:grid-cols-8">
-              {Array.from({ length: 8 }).map((_, idx) => (
-                <SmartImage
-                  key={idx}
-                  src={`/images/clients/logo-${idx + 1}.svg`}
-                  alt={`Logo placeholder ${idx + 1}`}
-                  ratio="logo"
-                  className="h-10 bg-white/10 p-2"
-                  imgClassName="object-contain"
-                  fallbackLabel={`Logo ${idx + 1}`}
-                />
-              ))}
-            </div>
-          </div>
         </div>
 
         <div className="relative z-10">
-          {/* Desktop illustration */}
           <div className="hidden lg:block">
             <motion.div
               initial={prefersReduced ? { opacity: 1 } : { opacity: 0, y: 16 }}
@@ -133,7 +111,7 @@ export function Hero() {
             >
               <SmartImage
                 src="/images/hero-desktop.svg"
-                alt="Ilustración placeholder hero desktop"
+                alt="Ilustración hero (placeholder)"
                 ratio="heroDesktop"
                 className="bg-white/10 p-4"
                 priority
@@ -142,7 +120,6 @@ export function Hero() {
             </motion.div>
           </div>
 
-          {/* Mobile illustration */}
           <div className="lg:hidden">
             <motion.div
               initial={prefersReduced ? { opacity: 1 } : { opacity: 0, y: 16 }}
@@ -152,7 +129,7 @@ export function Hero() {
             >
               <SmartImage
                 src="/images/hero-mobile.svg"
-                alt="Ilustración placeholder hero mobile"
+                alt="Ilustración hero (placeholder)"
                 ratio="heroMobile"
                 className="bg-white/10 p-4"
                 priority
@@ -174,7 +151,7 @@ export function Hero() {
           }
         }
         @media (prefers-reduced-motion: reduce) {
-          .animate-\[floaty_6s_ease-in-out_infinite\] {
+          .animate-\\[floaty_6s_ease-in-out_infinite\\] {
             animation: none !important;
           }
         }

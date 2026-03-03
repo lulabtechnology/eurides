@@ -15,8 +15,11 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+// Si luego conectas dominio propio, puedes definir NEXT_PUBLIC_SITE_URL en Vercel (Project → Settings → Environment Variables).
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://eurides-landing.vercel.app";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://example.com"), // [REEMPLAZAR] por el dominio final en Vercel
+  metadataBase: new URL(SITE_URL),
   title: "Traducción Inglés ↔ Español | Eurides Young",
   description:
     "Traducciones Inglés ↔ Español con atención directa. Traductora certificada y registrada. Cotiza por WhatsApp o email.",
@@ -24,7 +27,7 @@ export const metadata: Metadata = {
     title: "Traducción Inglés ↔ Español | Eurides Young",
     description:
       "Traducciones Inglés ↔ Español con atención directa. Traductora certificada y registrada.",
-    url: "https://example.com", // [REEMPLAZAR]
+    url: SITE_URL,
     siteName: "Eurides Young Traducciones",
     locale: "es_PA",
     type: "website",
@@ -33,7 +36,7 @@ export const metadata: Metadata = {
         url: "/images/video-poster.webp",
         width: 1200,
         height: 630,
-        alt: "Eurides Young Traducciones (placeholder)",
+        alt: "Eurides Young Traducciones",
       },
     ],
   },
@@ -45,7 +48,7 @@ export const metadata: Metadata = {
     images: ["/images/video-poster.webp"],
   },
   alternates: {
-    canonical: "https://example.com", // [REEMPLAZAR]
+    canonical: SITE_URL,
   },
 };
 
@@ -70,8 +73,8 @@ const jsonLd = {
       "description": "Servicios de traducción Inglés ↔ Español y traducción certificada según requisitos aplicables.",
       "telephone": ["+50766167325", "+50760947295"],
       "email": "emyoungab@gmail.com",
-      "areaServed": "[REEMPLAZAR]",
-      "url": "https://example.com"
+      "areaServed": "Panamá",
+      "url": SITE_URL
     }
   ]
 };

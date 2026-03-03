@@ -8,7 +8,7 @@ const stats = [
   { k: "20+ años", v: "de experiencia" },
   { k: "EN ↔ ES", v: "traducción bidireccional" },
   { k: "Certificada", v: "según requisitos aplicables" },
-  { k: "Atención directa", v: "sin intermediarios" },
+  { k: "Atención directa", v: "comunicación clara" },
 ];
 
 export function Stats() {
@@ -19,7 +19,7 @@ export function Stats() {
       <SectionHeader
         eyebrow="En números"
         title="Confianza que se nota"
-        subtitle="Indicadores claros (sin promesas vacías). Si necesitas un dato específico, se confirma."
+        subtitle="Un servicio cuidado, con enfoque profesional y atención directa."
         align="center"
       />
 
@@ -38,11 +38,6 @@ export function Stats() {
           </motion.div>
         ))}
       </div>
-
-      <p className="mt-6 text-center text-sm text-black/60">
-        Proyectos entregados: <span className="font-extrabold text-black/80">[REEMPLAZAR]</span> •
-        Promedio de respuesta: <span className="font-extrabold text-black/80">[REEMPLAZAR]</span>
-      </p>
     </div>
   );
 }
